@@ -1,0 +1,1 @@
+Kami dari kelompok FE 31 telah merancang website yang bernama DISACOM atau singkatan dari Disability Community. Platform ini merupakan media sosial untuk orang yang memiliki kelainan disabilitas.
