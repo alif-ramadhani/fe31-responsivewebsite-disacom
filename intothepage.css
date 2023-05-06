@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(2, 2, 114);
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title{
+    text-align: center;
+    color: whitesmoke;
+}
+
+button{
+	background-color: rgb(197, 242, 253);
+	color: rgb(55, 59, 83);
+	padding: 10px;
+    margin-left: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.button a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.button :hover{
+    background-color: aqua;
+}
+
+.footer{
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+

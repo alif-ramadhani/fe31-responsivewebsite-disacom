@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>DISACOM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="logo.png" alt="tidak ada gambar"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="dashboard.html">Dashboard</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="informasi.html">Information</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="motivasi.html">Motivation</a>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Friends</a>
+              <li class="nav-item">
+              <a class="nav-link" href="#">Messenges</a>
+              </li>
+              
+          </ul>
+          <span class="navbar-text">
+              <div class="d-flex">
+                  <a href="#"><img src="notification-icon.png" height="30px" alt="Gambar Erorr"></a>
+                  <a href="#"><img src="my-profile-icon.png" height="30px" alt="Gambar Erorr"></a>
+              </div>
+          </span>
+          
+          </div>
+          
+      </div>
+      </nav>
+    <div>
+      <link href="./dashboard.css" rel="stylesheet" />
+
+      <div class="dashboard-container">
+        <div class="dashboard-dashboard">
+          <span class="dashboard-text"><span>Frequently Contacted</span></span>
+          <span class="dashboard-text002"><span>Full Name</span></span>
+          <span class="dashboard-text004"><span>Status</span></span>
+          <img
+            src="public/playground_assets/rectangle43374-kl1-400h.png"
+            alt="Rectangle43374"
+            class="dashboard-rectangle4"
+          />
+          <img
+            src="public/playground_assets/premiumvectorpeopleinwheelchairsworkonlinecartoonf3374-hosl-300w.png"
+            alt="PremiumVectorPeopleinwheelchairsworkonlinecartoonf3374"
+            class="dashboard-premium-vector-peopleinwheelchairsworkonlinecartoonf"
+          />
+          <span class="dashboard-text006"><span>Hello Serati!</span></span>
+          <div class="dashboard-group29">
+            <div class="dashboard-calendar-card">
+              <div class="dashboard-header">
+                <div class="dashboard-dropdown-trigger">
+                  <div class="dashboard-text-text">
+                    <span class="dashboard-text008 Bodyregular">
+                      <span>2023</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-iconwrapper">
+                    <img
+                      src="public/playground_assets/unioni337-o0hf.svg"
+                      alt="UnionI337"
+                      class="dashboard-union"
+                    />
+                  </div>
+                </div>
+                <div class="dashboard-dropdown-trigger1">
+                  <div class="dashboard-text-text1">
+                    <span class="dashboard-text010 Bodyregular">
+                      <span>March</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-iconwrapper1">
+                    <img
+                      src="public/playground_assets/unioni337-vs1.svg"
+                      alt="UnionI337"
+                      class="dashboard-union1"
+                    />
+                  </div>
+                </div>
+                <button class="dashboard-radiobuttongroup">
+                  <div class="dashboard-wrapper">
+                    <div class="dashboard-frame2">
+                      <span class="dashboard-text012 Bodyregular">
+                        <span>Year</span>
+                      </span>
+                    </div>
+                    <div class="dashboard-frame1">
+                      <span class="dashboard-text014 Bodyregular">
+                        <span>Month</span>
+                      </span>
+                    </div>
+                  </div>
+                </button>
+              </div>
+              <div class="dashboard-body">
+                <div class="dashboard-thead">
+                  <span class="dashboard-text016"><span>Su</span></span>
+                  <span class="dashboard-text018"><span>Mo</span></span>
+                  <span class="dashboard-text020"><span>Tu</span></span>
+                  <span class="dashboard-text022"><span>We</span></span>
+                  <span class="dashboard-text024"><span>Th</span></span>
+                  <span class="dashboard-text026"><span>Fr</span></span>
+                  <span class="dashboard-text028"><span>Sa</span></span>
+                </div>
+                <div class="dashboard-tr">
+                  <div class="dashboard-picker-cell-month">
+                    <span class="dashboard-text030 Bodyregular">
+                      <span>29</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month01">
+                    <span class="dashboard-text032 Bodyregular">
+                      <span>30</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month02">
+                    <span class="dashboard-text034 Bodyregular">1</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month03">
+                    <span class="dashboard-text035 Bodyregular">2</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month04">
+                    <span class="dashboard-text036 Bodyregular">3</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month05">
+                    <span class="dashboard-text037 Bodyregular">4</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month06">
+                    <span class="dashboard-text038 Bodyregular">5</span>
+                  </div>
+                </div>
+                <div class="dashboard-tr1">
+                  <div class="dashboard-picker-cell-month07">
+                    <span class="dashboard-text039 Bodyregular">6</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month08">
+                    <span class="dashboard-text040 Bodyregular">7</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month09">
+                    <span class="dashboard-text041 Bodyregular">8</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month10">
+                    <span class="dashboard-text042 Bodyregular">9</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month11">
+                    <span class="dashboard-text043 Bodyregular">
+                      <span>10</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month12">
+                    <span class="dashboard-text045 Bodyregular">
+                      <span>11</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month13">
+                    <span class="dashboard-text047 Bodyregular">
+                      <span>12</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="dashboard-tr2">
+                  <div class="dashboard-picker-cell-month14">
+                    <span class="dashboard-text049 Bodyregular">
+                      <span>13</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month15">
+                    <span class="dashboard-text051 Bodyregular">
+                      <span>14</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month16">
+                    <span class="dashboard-text053 Bodyregular">
+                      <span>15</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month17">
+                    <span class="dashboard-text055 Bodyregular">
+                      <span>16</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month18">
+                    <span class="dashboard-text057 Bodyregular">
+                      <span>17</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month19">
+                    <span class="dashboard-text059 Bodyregular">
+                      <span>18</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month20">
+                    <span class="dashboard-text061 Bodyregular">
+                      <span>19</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="dashboard-tr3">
+                  <div class="dashboard-picker-cell-month21">
+                    <span class="dashboard-text063 Bodyregular">
+                      <span>20</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month22">
+                    <span class="dashboard-text065 Bodyregular">
+                      <span>21</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month23">
+                    <span class="dashboard-text067 Bodyregular">
+                      <span>22</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month24">
+                    <span class="dashboard-text069 Bodyregular">
+                      <span>23</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month25">
+                    <span class="dashboard-text071 Bodyregular">
+                      <span>24</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month26">
+                    <span class="dashboard-text073 Bodyregular">
+                      <span>25</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month27">
+                    <span class="dashboard-text075 Bodyregular">
+                      <span>26</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="dashboard-tr4">
+                  <div class="dashboard-picker-cell-month28">
+                    <span class="dashboard-text077 Bodyregular">
+                      <span>27</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month29">
+                    <span class="dashboard-text079 Bodyregular">
+                      <span>28</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month30">
+                    <span class="dashboard-text081 Bodyregular">
+                      <span>29</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month31">
+                    <span class="dashboard-text083 Bodyregular">
+                      <span>30</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month32">
+                    <span class="dashboard-text085 Bodyregular">
+                      <span>31</span>
+                    </span>
+                  </div>
+                  <div class="dashboard-picker-cell-month33">
+                    <span class="dashboard-text087 Bodyregular">1</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month34">
+                    <span class="dashboard-text088 Bodyregular">2</span>
+                  </div>
+                </div>
+                <div class="dashboard-tr5">
+                  <div class="dashboard-picker-cell-month35">
+                    <span class="dashboard-text089 Bodyregular">3</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month36">
+                    <span class="dashboard-text090 Bodyregular">4</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month37">
+                    <span class="dashboard-text091 Bodyregular">5</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month38">
+                    <span class="dashboard-text092 Bodyregular">6</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month39">
+                    <span class="dashboard-text093 Bodyregular">7</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month40">
+                    <span class="dashboard-text094 Bodyregular">8</span>
+                  </div>
+                  <div class="dashboard-picker-cell-month41">
+                    <span class="dashboard-text095 Bodyregular">9</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="dashboard-text096"><span>Maret,17 2023</span></span>
+          <span class="dashboard-text098">
+            <span class="dashboard-text099">Selamat Datang di</span>
+            <span class="dashboard-text100">DISACOM</span>
+            <span>
+              . Kamu dapat terhubung dengan orang disekitarmu atau bahkan
+              komunitas yang sesuai dengan mu. Dapatkan beberapa informasi dan
+              motivasi yang dapat mengubah hidupmu menjadi lebih baik.
+            </span>
+          </span>
+          <button class="dashboard-frame427319308button">
+            <span class="dashboard-text102"><span>View All</span></span>
+          </button>
+          <img
+            src="public/playground_assets/rectangle173374-bnsf-200h.png"
+            alt="Rectangle173374"
+            class="dashboard-rectangle17"
+          />
+          <img
+            src="public/playground_assets/rectangle193374-1gtn-200h.png"
+            alt="Rectangle193374"
+            class="dashboard-rectangle19"
+          />
+          <img
+            src="public/playground_assets/rectangle223374-ha5c-200h.png"
+            alt="Rectangle223374"
+            class="dashboard-rectangle22"
+          />
+          <img
+            src="public/playground_assets/rectangle253374-icd-200h.png"
+            alt="Rectangle253374"
+            class="dashboard-rectangle25"
+          />
+          <img
+            src="public/playground_assets/ellipse43374-t9gp-200h.png"
+            alt="Ellipse43374"
+            class="dashboard-ellipse4"
+          />
+          <img
+            src="public/playground_assets/ellipse53374-54hk-200h.png"
+            alt="Ellipse53374"
+            class="dashboard-ellipse5"
+          />
+          <img
+            src="public/playground_assets/ellipse63374-d0f5-200h.png"
+            alt="Ellipse63374"
+            class="dashboard-ellipse6"
+          />
+          <img
+            src="public/playground_assets/ellipse73374-ujrw-200h.png"
+            alt="Ellipse73374"
+            class="dashboard-ellipse7"
+          />
+          <span class="dashboard-text104"><span>Max Alonso</span></span>
+          <span class="dashboard-text106"><span>Hanaoka Fujio</span></span>
+          <span class="dashboard-text108"><span>Azkia</span></span>
+          <span class="dashboard-text110"><span>Esmeralda</span></span>
+          <div class="dashboard-group">
+            <img
+              src="public/playground_assets/vector3374-j2pb.svg"
+              alt="Vector3374"
+              class="dashboard-vector"
+            />
+            <img
+              src="public/playground_assets/vector3374-jog7.svg"
+              alt="Vector3374"
+              class="dashboard-vector01"
+            />
+            <img
+              src="public/playground_assets/vector3374-6sm.svg"
+              alt="Vector3374"
+              class="dashboard-vector02"
+            />
+          </div>
+          <div class="dashboard-groupbutton">
+            <img
+              src="public/playground_assets/vector3374-b4d.svg"
+              alt="Vector3374"
+              class="dashboard-vector03"
+            />
+            <img
+              src="public/playground_assets/vector3374-6i1w.svg"
+              alt="Vector3374"
+              class="dashboard-vector04"
+            />
+            <img
+              src="public/playground_assets/vector3374-oxoi.svg"
+              alt="Vector3374"
+              class="dashboard-vector05"
+            />
+          </div>
+          <div class="dashboard-groupbutton1">
+            <img
+              src="public/playground_assets/vector3374-txpp.svg"
+              alt="Vector3374"
+              class="dashboard-vector06"
+            />
+            <img
+              src="public/playground_assets/vector3375-zig.svg"
+              alt="Vector3375"
+              class="dashboard-vector07"
+            />
+            <img
+              src="public/playground_assets/vector3375-dy5.svg"
+              alt="Vector3375"
+              class="dashboard-vector08"
+            />
+          </div>
+          <div class="dashboard-groupbutton2">
+            <img
+              src="public/playground_assets/vector3375-0sk6.svg"
+              alt="Vector3375"
+              class="dashboard-vector09"
+            />
+            <img
+              src="public/playground_assets/vector3375-w8qq.svg"
+              alt="Vector3375"
+              class="dashboard-vector10"
+            />
+            <img
+              src="public/playground_assets/vector3375-pdo.svg"
+              alt="Vector3375"
+              class="dashboard-vector11"
+            />
+          </div>
+          <div class="dashboard-badge-status">
+            <div class="dashboard-badge-dot">
+              <div class="dashboard-dot">
+                <div class="dashboard-height">
+                  <img
+                    src="public/playground_assets/rectangle1i337-qbuq-200h.png"
+                    alt="Rectangle1I337"
+                    class="dashboard-rectangle1"
+                  />
+                  <img
+                    src="public/playground_assets/rectangle2i337-feye-200h.png"
+                    alt="Rectangle2I337"
+                    class="dashboard-rectangle2"
+                  />
+                </div>
+                <div class="dashboard-width">
+                  <img
+                    src="public/playground_assets/rectangle1i337-5rep-200h.png"
+                    alt="Rectangle1I337"
+                    class="dashboard-rectangle101"
+                  />
+                  <img
+                    src="public/playground_assets/rectangle2i337-su2-200h.png"
+                    alt="Rectangle2I337"
+                    class="dashboard-rectangle201"
+                  />
+                </div>
+              </div>
+            </div>
+            <span class="dashboard-text112"><span>Online</span></span>
+          </div>
+          <div class="dashboard-badge-status1">
+            <div class="dashboard-badge-dot1">
+              <div class="dashboard-dot1">
+                <div class="dashboard-height1">
+                  <img
+                    src="public/playground_assets/rectangle1i337-abn7-200h.png"
+                    alt="Rectangle1I337"
+                    class="dashboard-rectangle102"
+                  />
+                  <img
+                    src="public/playground_assets/rectangle2i337-aj5j-200h.png"
+                    alt="Rectangle2I337"
+                    class="dashboard-rectangle202"
+                  />
+                </div>
+                <div class="dashboard-width1">
+                  <img
+                    src="public/playground_assets/rectangle1i337-ccs-200h.png"
+                    alt="Rectangle1I337"
+                    class="dashboard-rectangle103"
+                  />
+                  <img
+                    src="public/playground_assets/rectangle2i337-ahl-200h.png"
+                    alt="Rectangle2I337"
+                    class="dashboard-rectangle203"
+                  />
+                </div>
+              </div>
+            </div>
+            <span class="dashboard-text114"><span>Offline</span></span>
+          </div>
+          <div class="dashboard-badge-status2">
+            <div class="dashboard-badge-dot2">
+              <div class="dashboard-dot2">
+                <div class="dashboard-height2">
+                  <img
+                    src="public/playground_assets/rectangle1i337-z5r-200h.png"
+                    alt="Rectangle1I337"
+                    class="dashboard-rectangle104"
+                  />
+                  <img
+                    src="public/playground_assets/rectangle2i337-ikj5-200h.png"
+                    alt="Rectangle2I337"
+                    class="dashboard-rectangle204"
+                  />
+                </div>
+                <div class="dashboard-width2">
+                  <img
+                    src="public/playground_assets/rectangle1i337-gv2-200h.png"
+                    alt="Rectangle1I337"
+                    class="dashboard-rectangle105"
+                  />
+                  <img
+                    src="public/playground_assets/rectangle2i337-h68j-200h.png"
+                    alt="Rectangle2I337"
+                    class="dashboard-rectangle205"
+                  />
+                </div>
+              </div>
+            </div>
+            <span class="dashboard-text116"><span>Online</span></span>
+          </div>
+          <div class="dashboard-badge-status3">
+            <div class="dashboard-badge-dot3">
+              <div class="dashboard-dot3">
+                <div class="dashboard-height3">
+                  <img
+                    src="public/playground_assets/rectangle1i337-ji1a-200h.png"
+                    alt="Rectangle1I337"
+                    class="dashboard-rectangle106"
+                  />
+                  <img
+                    src="public/playground_assets/rectangle2i337-plrk-200h.png"
+                    alt="Rectangle2I337"
+                    class="dashboard-rectangle206"
+                  />
+                </div>
+                <div class="dashboard-width3">
+                  <img
+                    src="public/playground_assets/rectangle1i337-wc1g-200h.png"
+                    alt="Rectangle1I337"
+                    class="dashboard-rectangle107"
+                  />
+                  <img
+                    src="public/playground_assets/rectangle2i337-3e1-200h.png"
+                    alt="Rectangle2I337"
+                    class="dashboard-rectangle207"
+                  />
+                </div>
+              </div>
+            </div>
+            <span class="dashboard-text118"><span>Online</span></span>
+          </div>
+          <img
+            src="public/playground_assets/rectangle283375-es28-200h.png"
+            alt="Rectangle283375"
+            class="dashboard-rectangle28"
+          />
+          <img
+            src="public/playground_assets/rectangle293375-rrt-200h.png"
+            alt="Rectangle293375"
+            class="dashboard-rectangle29"
+          />
+          <img
+            src="public/playground_assets/ellipse83375-55rz-200h.png"
+            alt="Ellipse83375"
+            class="dashboard-ellipse8"
+          />
+          <img
+            src="public/playground_assets/ellipse93375-w7et-200h.png"
+            alt="Ellipse93375"
+            class="dashboard-ellipse9"
+          />
+          <span class="dashboard-text120"><span>Lesli</span></span>
+          <span class="dashboard-text122"><span>Hanabi</span></span>
+          <div class="dashboard-groupbutton3">
+            <img
+              src="public/playground_assets/vector3375-edq5.svg"
+              alt="Vector3375"
+              class="dashboard-vector12"
+            />
+            <img
+              src="public/playground_assets/vector3375-e8k.svg"
+              alt="Vector3375"
+              class="dashboard-vector13"
+            />
+            <img
+              src="public/playground_assets/vector3375-i71e.svg"
+              alt="Vector3375"
+              class="dashboard-vector14"
+            />
+          </div>
+          <div class="dashboard-groupbutton4">
+            <img
+              src="public/playground_assets/vector3375-cm3u.svg"
+              alt="Vector3375"
+              class="dashboard-vector15"
+            />
+            <img
+              src="public/playground_assets/vector3375-vxtp.svg"
+              alt="Vector3375"
+              class="dashboard-vector16"
+            />
+            <img
+              src="public/playground_assets/vector3375-gcz.svg"
+              alt="Vector3375"
+              class="dashboard-vector17"
+            />
+          </div>
+          <div class="dashboard-badge-status4">
+            <div class="dashboard-badge-dot4">
+              <div class="dashboard-dot4">
+                <div class="dashboard-height4">
+                  <img
+                    src="public/playground_assets/rectangle1i337-m1zr-200h.png"
+                    alt="Rectangle1I337"
+                    class="dashboard-rectangle108"
+                  />
+                  <img
+                    src="public/playground_assets/rectangle2i337-5wvi-200h.png"
+                    alt="Rectangle2I337"
+                    class="dashboard-rectangle208"
+                  />
+                </div>
+                <div class="dashboard-width4">
+                  <img
+                    src="public/playground_assets/rectangle1i337-ngus-200h.png"
+                    alt="Rectangle1I337"
+                    class="dashboard-rectangle109"
+                  />
+                  <img
+                    src="public/playground_assets/rectangle2i337-4fxl-200h.png"
+                    alt="Rectangle2I337"
+                    class="dashboard-rectangle209"
+                  />
+                </div>
+              </div>
+            </div>
+            <span class="dashboard-text124"><span>Online</span></span>
+          </div>
+          <div class="dashboard-badge-status5">
+            <div class="dashboard-badge-dot5">
+              <div class="dashboard-dot5">
+                <div class="dashboard-height5">
+                  <img
+                    src="public/playground_assets/rectangle1i337-w8dr-200h.png"
+                    alt="Rectangle1I337"
+                    class="dashboard-rectangle110"
+                  />
+                  <img
+                    src="public/playground_assets/rectangle2i337-phe-200h.png"
+                    alt="Rectangle2I337"
+                    class="dashboard-rectangle210"
+                  />
+                </div>
+                <div class="dashboard-width5">
+                  <img
+                    src="public/playground_assets/rectangle1i337-3p8h-200h.png"
+                    alt="Rectangle1I337"
+                    class="dashboard-rectangle111"
+                  />
+                  <img
+                    src="public/playground_assets/rectangle2i337-dnl-200h.png"
+                    alt="Rectangle2I337"
+                    class="dashboard-rectangle211"
+                  />
+                </div>
+              </div>
+            </div>
+            <span class="dashboard-text126"><span>Online</span></span>
+          </div>
+          <img
+            src="public/playground_assets/rectangle83375-fx.svg"
+            alt="Rectangle83375"
+            class="dashboard-rectangle8"
+          />
+          <span class="dashboard-text128"><span>Tanggal Lahir</span></span>
+          <span class="dashboard-text130"><span>18-05-1997</span></span>
+          <span class="dashboard-text132"><span>Wanita</span></span>
+          <span class="dashboard-text134"><span>Jakarta, Indonesia</span></span>
+          <span class="dashboard-text136"><span>Alamat</span></span>
+          <span class="dashboard-text138"><span>Tuna Rungu</span></span>
+          <span class="dashboard-text140"><span>Keterangan</span></span>
+          <span class="dashboard-text142"><span>Mrs. Serati Ma</span></span>
+          <img
+            src="public/playground_assets/rectangle93375-5nl8-200w.png"
+            alt="Rectangle93375"
+            class="dashboard-rectangle9"
+          />
+          <img
+            src="public/playground_assets/line33375-04xc.svg"
+            alt="Line33375"
+            class="dashboard-line3"
+          />
+          <span class="dashboard-text144"><span>Jenis Kelamin</span></span>
+          <img
+            src="public/playground_assets/phonebutton3375-2uh.svg"
+            alt="phonebutton3375"
+            class="dashboard-phonebutton"
+          />
+          <img
+            src="public/playground_assets/messagebutton3375-6g68.svg"
+            alt="messagebutton3375"
+            class="dashboard-messagebutton"
+          />
+          <img
+            src="public/playground_assets/mailbutton3375-2z58.svg"
+            alt="mailbutton3375"
+            class="dashboard-mailbutton"
+          />
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer">
+          <div class="container">
+            <div class="box-footer">
+              <div class="box">
+                <h2>Disacom</h2>
+                <p>Sebuah wadah untuk saling terhubung dan bertukar informasi serta memotivasi satu sama lain.</p>
+              </div>
+              <div class="box">
+                <h2>Menu</h2>
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#program">Program</a>
+                <a href="#form">Login</a>
+                <a id="link" href="https://skilvul.com">Mitra</a>
+              </div>
+              <div class="box">
+                <p>&copy; Copyright by <span>Disacom</span> All Rights Reserved 2023, Indonesia</p>
+              </div>
+            </div>
+          </div>
+        </div>      
+  </footer>
+  <script src="dashboard.js"></script>
+  </body>
+</html>
